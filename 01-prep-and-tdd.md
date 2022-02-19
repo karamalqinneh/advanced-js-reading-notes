@@ -32,3 +32,9 @@ promise.catch(function(error){
         //handle error
     })
 ```
+
+## Async/Await Function in JavaScript
+
+Async: to write asynchronous based code as if it were synchronous you simply use async before the function and JS will take care of not breaking the execution thread A value is always returned by async functions. By ensuring that a promise is returned, and if it isn't, JS wraps it in a promise that is resolved with the promise's value.
+
+Await: To wait for the promise, the await function is used. It could only be used in the async block. It forces the code to wait for the promise to produce a result. It does nothing but make the async block wait.
