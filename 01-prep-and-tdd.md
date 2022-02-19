@@ -9,3 +9,26 @@ The call back queue solved too many issues but still there are some and to compl
 The following figure illustrates how the event loop works in the V8 engines:
 
 ![Event Loop illustration](./assets/eventLoop.jpg)
+
+## Callback Functions
+
+Sometimes you need to make sure that the function isn’t called only in certain place in this case we use callback functions. Callback functions are function that are called by another functions, the most common uses for them are event listeners and in array methods.
+
+## Promises
+
+To handle asynchronous operations in JS you’ll have to first understand promises, a promise is an object that will introduce some value in the future. A promise has four states: fulfilled: Action related to the promise succeeded, rejected: Action related to the promise failed, pending: Promise is still pending i.e. not fulfilled or rejected yet and settled: Promise has fulfilled or rejected.
+To handle promises you’ll need to use then and catch method and use the callback function logic in them ex:
+
+```
+promise.then(function(result){
+        //handle success
+    }, function(error){
+        //handle error
+    })
+```
+
+```
+promise.catch(function(error){
+        //handle error
+    })
+```
