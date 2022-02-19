@@ -38,3 +38,28 @@ promise.catch(function(error){
 Async: to write asynchronous based code as if it were synchronous you simply use async before the function and JS will take care of not breaking the execution thread A value is always returned by async functions. By ensuring that a promise is returned, and if it isn't, JS wraps it in a promise that is resolved with the promise's value.
 
 Await: To wait for the promise, the await function is used. It could only be used in the async block. It forces the code to wait for the promise to produce a result. It does nothing but make the async block wait.
+
+## Test-Driven Development
+
+TDD is a software development methodology in which test cases are created to define and validate what the code will accomplish. There is two approaches for TDD:
+1- Manual Testing: is simply testing the software as you are the user and d navigating around in an attempt to test functionality and find bugs.
+2- Automated Testing: write a code to check the code for you. This approach has a setback of not being able to change the specifications easily.
+
+### Automated Testing using JEST
+
+tests are function that receives a couple of arguments, we call our test with **it()** or **test()**
+
+```
+//filename.test.js
+
+test("testing filename", ()==>{
+    expect(1).toBe(1);
+})
+```
+
+- test() arguments:
+
+  1. a title or description **"testing filename""**
+  2. a function to assert something about our code **expect(1).toBe(1)**, here in expect we can check a variable in our code and in toBe we put our assertion of that variable. in this example it's always true so the test will always pass
+
+- The second argument we pass is a function where we actually assert something about our code.
