@@ -8,4 +8,4 @@ The call back queue solved too many issues but still there are some and to compl
 
 The following figure illustrates how the event loop works in the V8 engines:
 
-![Event Loop illustration]('./assets/eventLoop.jpg')
+![Event Loop illustration](./assets/eventLoop.jpg)
