@@ -36,3 +36,21 @@ It may be tough to write the tests, especially if they go beyond unit testing. I
 ### In what case would you need to use `beforeEach()` or `afterEach()` in a test suite?
 
 If each test in your describe requires a new copy of the structure because each test modifies it, you should use beforeEach to build a new copy of the structure for each test and then afterEach to cleanly break it down.
+
+## Sequelize
+
+sequelize is a module that enables JS developers to work with data more easily. in SQL queries you are writing a lot of code and a little business logic, so in sequelize you define models and using sync function it gets transformed into SQL tables and queries.
+
+In JavaScript you usually consume the data as objects while SQL provides them as tables or multiple tables with relations and that's an issue and programmers usually have to map the data first, sequelize solves this issue using libraries known as object-relational mappers.
+
+Benefits:
+
+1. Less ad consistent code.
+2. Avoid SQL queries.
+3. Abstracts the DB engines.
+4. Good tooling for migrations.
+
+Limitations:
+
+1. Complicated queries can be slow.
+2. Documentation isn't the best
