@@ -37,6 +37,10 @@ It may be tough to write the tests, especially if they go beyond unit testing. I
 
 If each test in your describe requires a new copy of the structure because each test modifies it, you should use beforeEach to build a new copy of the structure for each test and then afterEach to cleanly break it down.
 
+### Why REST?
+
+A REST API is an architectural concept for network-based software. GraphQL, on the other hand, is a query language, a specification, and a set of tools that operates over a single endpoint using HTTP. In addition, over the last few years, REST has been used to make new APIs, while the focus of GraphQL has been to optimize for performance and flexibility.
+
 ## Sequelize
 
 sequelize is a module that enables JS developers to work with data more easily. in SQL queries you are writing a lot of code and a little business logic, so in sequelize you define models and using sync function it gets transformed into SQL tables and queries.
