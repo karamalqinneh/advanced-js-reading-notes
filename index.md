@@ -5,3 +5,4 @@
 3. [Data Modeling](./03-Data-Modeling.md)
 4. [MongoDB using Atlas](./PN-MongoDB-using-atlas.md)
 5. [Linked List](./04-Linked-List.md)
+6. [Authentication](./05-Authentication.md)
