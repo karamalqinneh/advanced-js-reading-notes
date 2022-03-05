@@ -20,3 +20,18 @@ Everybody knows it is dummy to store your passwords in plain text in databases. 
 2. Hash Collision attack: Hash functions have infinite input length and a predefined output length, so there is inevitably going to be the possibility of two different inputs that produce the same output hash.
 
 To overcome these obstacles BCrypt was introduced. Bcrypt is an adaptive hash function based on the Blowfish symmetric block cipher cryptographic algorithm and introduces a work factor (also known as security factor), which allows you to determine how expensive the hash function will be.
+
+### The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
+
+### Authentication General Guidelines:
+
+1. Authentication Solution and Sensitive Accounts
+2. Implement Proper Password Strength Controls
+3. Implement Secure Password Recovery Mechanism
+4. Store Passwords in a Secure Fashion
+5. Compare Password Hashes Using Safe Functions
+6. Transmit Passwords Only Over TLS or Other Strong Transport
+7. Require Re-authentication for Sensitive Features
+8. Consider Strong Transaction Authentication
+9. Protect Against Automated Attacks
+10. Use of authentication protocols that require no password¶
