@@ -7,3 +7,4 @@
 5. [Linked List](./04-Linked-List.md)
 6. [Authentication](./05-Authentication.md)
 7. [Bearer Authorization](./06-Bearer-Authorization.md)
+8. [Access Control](./07-Access-Control.md)
