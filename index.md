@@ -10,4 +10,5 @@
 8. [Access Control](./07-Access-Control.md)
 9. [Authorization Authentication](./08-Authorization%26Authentication.md)
 10. [Stack & Queue](./09-Stack%26Queue.md)
-11. [Socket.io](./10-Socket.io.md)
+11. [Event Emitters](./10-Event-Emitters.md)
+12. [Socket.io](./11-Socket.io.md)
