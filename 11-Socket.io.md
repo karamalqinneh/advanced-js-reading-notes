@@ -7,18 +7,17 @@ Socket.IO is a library that enables low-latency, bidirectional and event-based c
 A real-time application (RTA) is an application that functions within a period that the user senses as immediate or current.
 
 Some examples of real-time applications are:
-
 Collaboration Applications, instant messengers and push Notifications.
 
 ## Why Socket.IO?
 
-Writing a real-time application with popular web applications stacks like LAMP (PHP) has traditionally been very hard. It involves polling the server for changes, keeping track of timestamps, and it is a lot slower than it should be.
+Writing a real-time application using popular web application stacks such as LAMP (PHP) has always been a difficult task. It entails polling the server for updates and keeping track of timestamps, and it runs far slower than it should.
 
-Sockets have traditionally been the solution around which most real-time systems are architected, providing a bi-directional communication channel between a client and a server. This means that the server can push messages to clients. Whenever an event occurs, the idea is that the server will get it and push it to the concerned connected clients.
+Most real-time systems have typically been built on sockets, which provide a bi-directional communication channel between a client and a server. This indicates that the server has the ability to send messages to clients. The concept is that whenever an event occurs, the server will receive it and send it to the connected clients that are affected.
 
 ## Difference Between WebSocket and Socket.io
 
-WebSocket is the communication Protocol that provides bidirectional communication between the Client and the Server over a TCP connection; WebSocket remains open all the time, so they allow real-time data transfer. When clients trigger the request to the server, it does not close the connection on receiving the response; it rather persists and waits for the client or server to terminate the request. Socket.IO is a library that enables real-time and full-duplex communication between the Client and the Web servers. It uses the WebSocket protocol to provide the interface. Generally, it is divided into two parts; both WebSocket vs Socket.io are event-driven libraries.
+WebSocket is a communication protocol that allows bidirectional communication between a client and a server over a TCP connection. Because WebSockets are always open, they allow for real-time data transmission. When a client sends a request to a server, the server does not stop the connection after getting the response; instead, it lingers and waits for the client or server to end the request. Socket.IO is a library that allows clients and web servers to communicate in real time and in full duplex. The interface is provided by the WebSocket protocol. Both WebSocket and Socket.io are event-driven libraries, thus they're separated into two components.
 
 ### Key features of Socket.IO
 
