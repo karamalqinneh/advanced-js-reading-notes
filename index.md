@@ -12,3 +12,6 @@
 10. [Stack & Queue](./algo&data-structures/09-Stack%26Queue.md)
 11. [Event Emitters](./10-Event-Emitters.md)
 12. [Socket.io](./11-Socket.io.md)
+13. [AWS](./AWS/14-aws.md)
+14. [S3 & Lambda](./AWS/15-S3-and-Lambda.md)
+15. [API Gateway & DynamoDB](./AWS/16-API-Dynamo-Lambda.md)
