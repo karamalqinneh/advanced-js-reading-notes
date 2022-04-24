@@ -15,3 +15,4 @@
 13. [AWS](./AWS/14-aws.md)
 14. [S3 & Lambda](./AWS/15-S3-and-Lambda.md)
 15. [API Gateway & DynamoDB](./AWS/16-API-Dynamo-Lambda.md)
+16. [Component Based UI](./react/17-Component-Based-UI.md)
